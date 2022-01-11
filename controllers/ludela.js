@@ -58,19 +58,6 @@ const ludela = {
             })
         })
     }
-    // _doSendCommandLine: function (command) {
-    //     return new Promise((resolve, reject) => {
-    //         console.log(`EXECUTING ${command}`)
-    //         exec(`irsend SEND_ONCE ludela ${command}`, (err, stdout) => {
-    //             console.log(stdout)
-    //             if (err) {
-    //                 reject()
-    //             } else {
-    //                 resolve()
-    //             }
-    //         })
-    //     })
-    // }
 }
 
 module.exports = ludela
